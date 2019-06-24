@@ -13,7 +13,7 @@ class PostsController < ApplicationController
 
   # add create method here
   def create
-    
+    @post = Post.create(params[:post])
   end
 
 end
